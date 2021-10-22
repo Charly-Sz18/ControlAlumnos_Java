@@ -36,7 +36,7 @@ public class Triangulo extends Figura{
         System.out.println("Datos proporcionados \nBase: "+ base +"\nDato de la Altura: "+ altura);
     }
 
-    public  void imprime_Area(){
+    public void imprime_Area(){
         System.out.println("El area del Triangulo es: "+ (base*altura)/2 + "\n");
     }
 
