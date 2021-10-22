@@ -53,13 +53,6 @@ public class Racional {
 
     }
 
-    public Racional Resta(Racional rac){
-        
-            int n = Num * rac.getDenominador() - Den * rac.getNumerador();
-            int d = Den * rac.getDenominador();
-            return (new Racional(n,d).simplificar());
-        }
-
     public Racional Suma(Racional rac){
 
         int n = Num * rac.getDenominador() + Den* rac.getNumerador();

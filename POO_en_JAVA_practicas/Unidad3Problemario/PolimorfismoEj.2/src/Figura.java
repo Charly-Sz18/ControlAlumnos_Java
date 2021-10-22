@@ -7,6 +7,6 @@ public abstract class Figura {
     }
     
     public abstract void pide_Datos();
-    public abstract float imprime_Area();
+    public abstract void imprime_Area();
     
 }

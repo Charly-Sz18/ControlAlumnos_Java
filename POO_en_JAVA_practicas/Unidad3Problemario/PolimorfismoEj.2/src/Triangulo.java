@@ -40,8 +40,8 @@ public class Triangulo extends Figura{
         setAltura(lectura.nextFloat());
     }
 
-    public  float imprime_Area(){
-        return base*altura/2;
+    public  void imprime_Area(){
+        System.out.println("El area del Triangulo es: "+ (base*altura)/2);
     }
 
     
