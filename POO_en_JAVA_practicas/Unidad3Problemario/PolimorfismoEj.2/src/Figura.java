@@ -9,4 +9,5 @@ public abstract class Figura {
     public abstract void pide_Datos();
     public abstract void imprime_Area();
     
+    
 }

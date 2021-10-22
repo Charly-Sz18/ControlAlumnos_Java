@@ -23,11 +23,11 @@ public class Cuadrado extends Figura {
     }
 
     public  void pide_Datos(){
-        
+        System.out.println("\nDato del lado proporcionado: "+ lado);
     }
 
     public void imprime_Area(){
-        System.out.println("El area del cuadrado es: "+ lado * lado);  
+        System.out.println("El area del cuadrado es: "+ lado * lado+"\n");  
     }
 
 
