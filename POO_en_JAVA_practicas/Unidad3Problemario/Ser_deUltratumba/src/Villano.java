@@ -2,7 +2,7 @@ public class Villano{
     private int edad;
     private String nombre;
 
-    public Villano( int e, String n){
+    public Villano( String n, int e){
         edad = e;
         nombre = n;
     }
@@ -14,6 +14,14 @@ public class Villano{
 
     public String getNombre(){
         return nombre;
+    }
+    
+    public void asustar(){
+        System.out.println("Buuuuuuuuuuu!");
+    }
+
+    public void gritar(){
+        System.out.println("Uaaaaaaaaay!!!!");
     }
      
     

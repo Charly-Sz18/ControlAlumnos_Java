@@ -7,7 +7,6 @@ public class CPagua extends Pcongelado{
         this.salinidad = sal;
     }
 
-
     public void setSal(int sal){
         this.salinidad = sal;
     }

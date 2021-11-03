@@ -1,18 +1,18 @@
 public class Pfrescos extends Tproductos{
     
-    private int año;
+    private int anio;
 
-    public Pfrescos(String lote, String pais, int añoE){
+    public Pfrescos(String lote, String pais, int anioE){
         super(lote, pais);
-        this.año = añoE;
+        this.año = anioE;
     }
 
-    public void setAño(int añoE){
-        this.año = añoE;
+    public void setAño(int anioE){
+        this.anio = anioE;
     }
 
     public int getAño(){
-        return año;
+        return anio;
     }
     
 
